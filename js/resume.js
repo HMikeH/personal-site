@@ -6,16 +6,27 @@ let All_sk = {"wk_aiec":["sk-javascript","sk-d3js","sk-php","sk-python","sk-mysq
               "wk_ssic":["sk-javascript","sk-d3js","sk-php","sk-python","sk-mysql","sk-linux","sk-proxmox","sk-omekas"],
               "wk_dlll":["sk-javascript","sk-python"],
               "wk_cy":["sk-me"],
-              "ma_thesis":["sk-javascript","sk-jquery","sk-d3js","sk-python","sk-ga","sk-mysql","sk-linux","sk-proxmox"]}
+              "ma_thesis":["sk-javascript","sk-jquery","sk-d3js","sk-python","sk-ga","sk-mysql","sk-linux","sk-proxmox"],
+              "ex_1":["sk-javascript","sk-jquery","sk-d3js","sk-python","sk-ga","sk-mysql","sk-linux","sk-proxmox"],
+              "ex_2_1":["sk-javascript","sk-python","sk-linux","sk-ga"],
+              "ex_2_2":["sk-javascript","sk-jquery","sk-d3js","sk-python","sk-ga","sk-mysql","sk-linux","sk-proxmox"],
+              "ex_2":["sk-javascript","sk-jquery","sk-d3js","sk-python","sk-ga","sk-mysql","sk-linux","sk-proxmox"],
+              "ex_3":["sk-javascript","sk-php","sk-ga","sk-mysql"]
+            }
 
 let All_rd = {"wk_aiec":["rd-ner","rd-dm","rd-db","rd-tm","rd-vis"],
               "wk_ssic":["rd-ner","rd-dm","rd-db","rd-tm","rd-vis","rd-topic","rd-hlda","rd-im"],              
               "wk_dlll":["rd-dm"],
               "wk_cy":["rd-me"],
-              "ma_thesis":["rd-ner","rd-dm","rd-tm","rd-vis","rd-topic","rd-hlda","rd-lsa"]}
+              "ma_thesis":["rd-ner","rd-dm","rd-tm","rd-vis","rd-topic","rd-hlda","rd-lsa"],
+              "ex_1":["rd-ner","rd-dm","rd-tm","rd-vis","rd-topic","rd-hlda","rd-lsa"],
+              "ex_2_1":["rd-dm","rd-im","rd-lsa"],
+              "ex_2_2":["rd-ner","rd-dm","rd-tm","rd-vis","rd-topic","rd-hlda","rd-lsa"],
+              "ex_2":["rd-ner","rd-dm","rd-tm","rd-vis","rd-topic","rd-hlda","rd-lsa","rd-im"],
+              "ex_3":["rd-ner","rd-dm","rd-tm","rd-vis","rd-lsa","rd-sna"]}
 
-let All_wk = ["wk_aiec","wk_ssic","wk_dlll","wk_cy","ma_thesis",]
-let All_hyperlink =["wk_aiec_hy","wk_ssic_hy","wk_dlll_hy","wk_cy_hy","ma_thesis_hy"]
+let All_wk = ["wk_aiec","wk_ssic","wk_dlll","wk_cy","ma_thesis","ex_1","ex_2_1","ex_2_2","ex_2","ex_3"];
+let All_hyperlink =["wk_aiec_hy","wk_ssic_hy","wk_dlll_hy","wk_cy_hy","ma_thesis_hy","ex_1_hy","ex_2_1_hy","ex_2_2_hy","ex_3_hy"];
 
 
 // TO DO:直接不包括的項目變灰即可
